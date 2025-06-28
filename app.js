@@ -82,7 +82,7 @@ function displayResults(cities) {
     list.appendChild(li);
   });
 
-  output.innerHTML = `<h3 class="text-lg font-bold mb-2">✅ Common Meeting Time:</h3>`;
+  output.innerHTML = `<h3 class="text-lg font-bold mb-2"> Common Meeting Time:</h3>`;
   output.appendChild(list);
 }
 
