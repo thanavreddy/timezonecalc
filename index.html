@@ -1,17 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Meeting Time Finder</title>
-  <script src="https://cdn.jsdelivr.net/npm/luxon@3.4.3/build/global/luxon.min.js"></script>
-  
-  <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body class="bg-white text-black font-sans p-6 max-w-xl mx-auto">
-  <h1 class="text-2xl font-bold mb-4">Meeting Time Finder</h1>
-  <input id="cityInput" type="text" placeholder="Enter cities (e.g. New York, London, Delhi)" class="w-full p-2 border border-gray-300 rounded mb-4"/>
-  <button onclick="handleSubmit()" class="bg-black text-white px-4 py-2 rounded hover:bg-gray-800 transition">Find Overlap</button>
-  <div id="output" class="mt-6"></div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Meeting Time Finder</title>
+    <script src="https://cdn.jsdelivr.net/npm/luxon@3.4.3/build/global/luxon.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-white text-black font-sans p-6 max-w-xl mx-auto">
+
+    <h1 class="text-2xl font-bold mb-4">🕒 Meeting Time Finder</h1>
+    
+    <input
+      id="cityInput"
+      type="text"
+      placeholder="Enter cities (e.g. London, Delhi, Sydney)"
+      class="w-full p-2 border border-gray-300 rounded mb-4"
+    />
+    
+    <button
+      onclick="handleSubmit()"
+      class="bg-black text-white px-4 py-2 rounded hover:bg-gray-800 transition"
+    >
+      Find Overlap
+    </button>
+    
+    <div id="output" class="mt-6"></div>
+
+    
+  </body>
 </html>
