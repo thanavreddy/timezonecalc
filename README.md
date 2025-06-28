@@ -51,12 +51,13 @@ npx live-server
 ---
 
 ##  Screenshot
+![image](https://github.com/user-attachments/assets/3fb4d02f-9a9e-49df-8684-25af715c9a67)
 
 
 
 ---
 
-## 🔗 Example
+## Example
 
 **Input:**
 ```
